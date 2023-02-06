@@ -1,102 +1,48 @@
 const data = {
-    product: [
+    products: [
         {
-            name: 'Nike Shirt',
-            slug: 'nike-shirt',
+            name: 'Free Shirt',
+            slug: 'free-shirt',
             category: 'Shirts',
-            image: 'images/shirt1.jpg',
+            image: ['/images/image-product-1.jpg', '/images/image-product-2.jpg', '/images/image-product-3.jpg'],
             price: 70,
             brand: 'Nike',
             rating: 4.5,
-            numReviews: 9,
-            countInStock: 66,
-            description: 'A popular shirt'
+            numReviews: 8,
+            countInStock: 20,
+            description: 'A popular shirt',
+            isFeatured: true,
+            banner: '/images/banner1.jpg',
         },
         {
-            name: 'Adidas Shirt',
-            slug: 'adidas-shirt',
+            name: 'Fit Shirt',
+            slug: 'fit-shirt',
             category: 'Shirts',
             image: '/images/shirt2.jpg',
             price: 80,
-            brand: 'adidas',
-            rating: 4.1,
-            numReviews: 5,
+            brand: 'Adidas',
+            rating: 3.2,
+            numReviews: 10,
             countInStock: 20,
-            description: 'A popular shirt'
+            description: 'A popular shirt',
+            isFeatured: true,
+            banner: '/images/banner2.jpg',
         },
         {
-            name: 'Reef Shirt',
-            slug: 'reef-shirt',
+            name: 'Slim Shirt',
+            slug: 'slim-shirt',
             category: 'Shirts',
             image: '/images/shirt3.jpg',
-            price: 70,
-            brand: 'reef',
-            rating: 4.3,
-            numReviews: 20,
-            countInStock: 100,
-            description: 'A popular shirt'
+            price: 90,
+            brand: 'Raymond',
+            rating: 4.5,
+            numReviews: 3,
+            countInStock: 20,
+            description: 'A popular shirt',
         },
-        {
-            name: 'Reef Shirt',
-            slug: 'reef-shirt',
-            category: 'Shirts',
-            image: '/images/shirt3.jpg',
-            price: 70,
-            brand: 'reef',
-            rating: 4.3,
-            numReviews: 20,
-            countInStock: 100,
-            description: 'A popular shirt'
-        },
-        {
-            name: 'Reef Shirt',
-            slug: 'reef-shirt',
-            category: 'Shirts',
-            image: '/images/shirt3.jpg',
-            price: 70,
-            brand: 'reef',
-            rating: 4.3,
-            numReviews: 20,
-            countInStock: 100,
-            description: 'A popular shirt'
-        },
-        {
-            name: 'Reef Shirt',
-            slug: 'reef-shirt',
-            category: 'Shirts',
-            image: '/images/shirt3.jpg',
-            price: 70,
-            brand: 'reef',
-            rating: 4.3,
-            numReviews: 20,
-            countInStock: 100,
-            description: 'A popular shirt'
-        },
-        {
-            name: 'Reef Shirt',
-            slug: 'reef-shirt',
-            category: 'Shirts',
-            image: '/images/shirt3.jpg',
-            price: 70,
-            brand: 'reef',
-            rating: 4.3,
-            numReviews: 20,
-            countInStock: 100,
-            description: 'A popular shirt'
-        },
-        {
-            name: 'Reef Shirt',
-            slug: 'reef-shirt',
-            category: 'Shirts',
-            image: '/images/shirt3.jpg',
-            price: 70,
-            brand: 'reef',
-            rating: 4.3,
-            numReviews: 20,
-            countInStock: 100,
-            description: 'A popular shirt'
-        },
-    ]
+
+    ],
+
 }
 
 export default data;
